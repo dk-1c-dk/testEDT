@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fde8e4c4-daf6-40b7-b563-cfc0f3494693">
+  <producedTypes>
+    <objectType typeId="66867aed-000c-4fac-a6d2-c45eee92e567" valueTypeId="eab15258-b194-4b5f-9c69-f00769f37cbc"/>
+    <refType typeId="08c3ad19-c441-40cf-91e7-670ab0e296b6" valueTypeId="eb9baeec-1966-4173-baf3-31ac27ced8d5">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="6c0a69f8-c742-4f4e-883c-a8f932ede3fe" valueTypeId="292317d0-295c-425e-87ff-fe2c16628202"/>
+    <listType typeId="43f1fabc-2330-462f-b703-4a038fc61719" valueTypeId="4f50f551-ad67-4695-b79c-68bd5d27385a"/>
+    <managerType typeId="b670a5a7-39d2-4e98-b04c-d79147200692" valueTypeId="b65a888c-9544-481d-a12b-3d794aa16733"/>
+  </producedTypes>
+  <name>СпискиПокупок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Списки покупок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СпискиПокупок.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СпискиПокупок.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>110</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СпискиПокупок.Form.ФормаЭлемента</defaultObjectForm>
+  <tabularSections uuid="6a3ac2c5-84f0-44a9-9d33-a6cede84095c">
+    <producedTypes>
+      <objectType typeId="2a006b51-d6a9-4424-afa5-f8239ef4e5e8" valueTypeId="b4b10d42-a207-4683-8cc3-f24e257f7886"/>
+      <rowType typeId="6dd9fa95-ec93-4c66-a962-6cdd930e1be8" valueTypeId="e7ddadc3-cbf1-4185-9074-3e7e6c78408a"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="887aee20-9f04-4b7a-98eb-e8df76888133">
+      <name>Товар</name>
+      <synonym>
+        <key>ru</key>
+        <value>Товар</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>110</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+  <forms uuid="1e0a0abe-7dbb-4ad0-a26e-924eef1acc07">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
